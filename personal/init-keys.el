@@ -11,4 +11,6 @@
   (global-set-key (kbd "C-x <down>") 'windmove-down)
   (global-set-key (kbd "C-x <left>") 'windmove-left)
   (global-set-key (kbd "C-x <right>") 'windmove-right)
+  (global-set-key (kbd "<S-RET>") 'prelude-smart-open-line)
+  (global-set-key (kbd "✠") 'prelude-smart-open-line)
   )
