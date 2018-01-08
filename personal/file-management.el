@@ -3,3 +3,5 @@
 (unless (package-installed-p 'sunrise-commander)
   (package-refresh-contents))
 (prelude-require-package 'sunrise-commander)
+
+(setq projectile-switch-project-action 'helm-projectile)
